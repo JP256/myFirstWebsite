@@ -46,7 +46,20 @@ li a:hover {
   font-size: 24px;
   font-weight: bolder;
 }
-
 .showcase2 {
   float: left;
+  width: 70%;
+}
+.aside {
+  float: right;
+  width: 30%;
+}
+.clr {
+  clear: both;
+}
+
+.main-footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
 }
