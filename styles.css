@@ -12,6 +12,8 @@ body {
 }
 .main-header {
   background-color: coral;
+  height: 40px;
+  padding-top: 15px;
   color: #fff;
   font-weight: bold;
   word-spacing: 10px;
@@ -49,16 +51,40 @@ li a:hover {
 .showcase2 {
   float: left;
   width: 70%;
+  box-sizing: border-box;
+  color: #333;
+  /* border: solid black 1px; */
+}
+.main-section {
+  /* background-color: red; */
+  margin-left: 0;
+  padding-top: 10px;
+  /* border: solid black 1px; */
+}
+.main-section h2,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  box-sizing: border-box;
+}
+.main-section h2 {
+  background-color: #333;
+  color: #f4f4f4;
 }
 .aside {
+  padding-top: 10px;
   float: right;
   width: 30%;
+  background-color: #333;
+  color: #fff;
+  box-sizing: border-box;
 }
 .clr {
   clear: both;
 }
-
 .main-footer {
+  height: 40px;
+  margin: auto;
   text-align: center;
   background-color: #333;
   color: #fff;
